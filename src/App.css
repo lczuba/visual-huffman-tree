@@ -1,0 +1,82 @@
+h1 {
+  color: var(--global-text-color);
+  text-align: center;
+}
+
+.header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid black;
+}
+
+.main {
+  min-height: 40rem;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.textArea, .huffmanTree {
+  width: 90%;
+  padding: 1.5rem;
+  margin: 1rem;
+  background-color: var(--global-color-secondary);
+  border-radius: 1rem;
+  border: 1px solid black;
+  color: var(--global-text-color);
+  
+  overflow: hidden;
+  height: auto;
+  resize: none;
+  outline: none;
+  font-size: 20px;
+}
+
+
+.huffmanArea{
+  /* width: 300rem; */
+  position: relative;
+  /* min-height: 20rem; */
+}
+
+svg{
+  width: 100%;
+  height: 100%;
+  /* width: 300rem; */
+  min-height: 40rem;
+}
+
+.node{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: var(--global-color-warning);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 1s ease-out;
+}
+
+polyline{
+  fill: none;
+  stroke: var(--global-color-warning);
+  stroke-width: 4;
+  /* animation-name: appearing;
+  animation-duration: 2s; */
+  transition: points 2s;
+}
+
+@keyframes appearing {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+

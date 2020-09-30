@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --global-font-family: Verdana, sans-serif;
+  --global-font-size: 0.8rem;
+  --global-primary-title-size: 2rem;
+  --global-text-color: #F4F1DE;
+  --global-color-primary: #3D405B;
+  --global-color-secondary: #9e6a5b;
+  --global-color-warning: #81B29A;
+  --global-color-danger: #F2CC8F;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--global-color-primary);
+  color: var(--global-text-color);
+}
+
+
